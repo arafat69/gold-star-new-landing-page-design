@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+:root{
+  --theme-color:#DFA312;
+  --body-bg: #F5F5F5;
+}
+.text-theme-color{
+  color: var(--theme-color);
+}
+.bg-theme-color{
+  background: var(--theme-color);
+}
+
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: var(--body-bg);
+}
+
+.faq-wrapper {
+  max-width: 100% !important;
+}
+
+.accordion {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.accordion__item {
+  border-bottom: 1px solid #E7E5E4 !important;
+}
+
+.accordion__title {
+  padding: 18px 0px !important;
+  font-weight: bold !important;
+}
+.accordion__title_active, .accordion__toggle-button_active{
+  color: #DCA112 !important;
+}
+.accordion__toggle-button_active::after, .accordion__toggle-button_active::before{
+  background: #DCA112 !important;
+}
+
+.accordion__value {
+  padding: 0 12px 6px 12px !important;
+  text-align: left;
+  color: #57534E !important;
+  border-left: 2px solid #DCA112 !important;
+  margin-bottom: 6px !important;
+}
